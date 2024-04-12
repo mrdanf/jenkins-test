@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('End - Echo') {
             steps {
-                sh 'Hello, END!'
+                sh 'echo "Hello, END!"'
             }
         }
     }

@@ -7,6 +7,8 @@ pipeline {
                 sh 'echo "Hello, END!"'
                 sh 'echo "pwd: $(pwd)"'
                 sh 'echo "First file yo!" > test.txt'
+                sh 'cd /home/mrdanf'
+                sh 'echo "pwd: $(pwd)"'
             }
         }
     }
